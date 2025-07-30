@@ -60,9 +60,11 @@ sudo apt install -y ansible sshpass
 ## 📦 Running the Playbook
 
 1. Test SSH Access (optional but recommended)
+   
 ansible -i inventory.ini all -m ping
 
 2. Run the Playbook
+   
 ansible-playbook -i inventory.ini site.yml
 
 => This playbook will:
