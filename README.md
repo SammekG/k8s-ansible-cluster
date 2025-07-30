@@ -83,7 +83,7 @@ Initialize Kubernetes on master node
 
 Join worker nodes automatically
 
-=> Post Setup Verification
+3. Post Setup Verification
 ```bash
 kubectl get nodes
 ```
