@@ -19,7 +19,9 @@ k8s-ansible-cluster/
 ├── docker/ # Installs Docker
 └── kubernetes/ # Installs K8s tools and initializes cluster
 
-**The structure includes:**
+# ===============================
+# >> THE STRUCTURE INCLUDES <<
+# ===============================
 
 k8s-ansible-cluster/
 ├── inventory.ini
