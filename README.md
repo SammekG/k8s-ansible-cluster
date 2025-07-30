@@ -62,12 +62,14 @@ sudo apt install -y ansible sshpass
 ## 📦 Running the Playbook
 
 1. Test SSH Access (optional but recommended)
-   
+```bash   
 ansible -i inventory.ini all -m ping
+```
 
 2. Run the Playbook
-   
+```bash
 ansible-playbook -i inventory.ini site.yml
+```
 
 => This playbook will:
 
@@ -82,5 +84,6 @@ Initialize Kubernetes on master node
 Join worker nodes automatically
 
 => Post Setup Verification
-
+```bash
 kubectl get nodes
+```
