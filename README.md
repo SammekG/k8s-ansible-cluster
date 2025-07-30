@@ -4,6 +4,10 @@ This project automates the setup of a Kubernetes cluster using Ansible. It provi
 
 ---
 
+![Kubernetes Cluster Automation Diagram](diagram.png)
+
+---
+
 ## 📁 Project Structure
 
 ```bash
