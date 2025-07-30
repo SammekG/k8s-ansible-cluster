@@ -6,6 +6,7 @@ This project automates the setup of a Kubernetes cluster using Ansible. It provi
 
 ## 📁 Project Structure
 
+```bash
 k8s-ansible-cluster/
 ├── inventory.ini # Inventory file with master and worker nodes
 ├── site.yml # Main playbook file
@@ -13,7 +14,7 @@ k8s-ansible-cluster/
 ├── common/ # Common prerequisites (curl, apt, etc.)
 ├── docker/ # Installs Docker
 └── kubernetes/ # Installs K8s tools and initializes cluster
-
+```
 
 ---
 
