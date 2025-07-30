@@ -14,6 +14,20 @@ k8s-ansible-cluster/
 ├── common/ # Common prerequisites (curl, apt, etc.)
 ├── docker/ # Installs Docker
 └── kubernetes/ # Installs K8s tools and initializes cluster
+
+##
+
+k8s-ansible-cluster/
+├── inventory.ini
+├── site.yml
+└── roles/
+    ├── common/
+    │   └── tasks/main.yml
+    ├── docker/
+    │   └── tasks/main.yml
+    └── kubernetes/
+        └── tasks/main.yml
+        
 ```
 
 ---
